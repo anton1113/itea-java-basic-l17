@@ -16,7 +16,7 @@ public class IteaStudent {
         this.lastName = lastName;
     }
 
-    public IteaStudent(int id, String firstName, String lastName) {
+    private IteaStudent(int id, String firstName, String lastName) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
